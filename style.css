@@ -136,7 +136,14 @@ a:hover {
 
 .hamburger-icon span:first-child {
   transform: none;
+}
+
+.hamburger-icon span:first-child {
   opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none;
 }
 
 /* SECTIONS */
@@ -388,7 +395,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250); /* Fixed background color */
+  background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -464,3 +471,5 @@ footer p {
   background: rgb(30, 30, 30);
   border-color: rgb(80, 80, 80);
 }
+
+would this run 
