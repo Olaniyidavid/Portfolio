@@ -371,21 +371,5 @@ I thrive on solving complex problems and continuously seek opportunities to expa
       <p>Copyright &#169; 2025 Olaniyi David. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
-     <script>
-      function toggleDarkMode() {
-        document.body.classList.toggle("dark-mode");
-
-        // Store the user's preference in localStorage
-        const isDarkMode = document.body.classList.contains("dark-mode");
-        localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
-      }
-
-      // Check the user's preference on page load
-      window.onload = function () {
-        if (localStorage.getItem("darkMode") === "enabled") {
-          document.body.classList.add("dark-mode");
-        }
-      };
-    </script>
   </body>
 </html>
