@@ -472,4 +472,9 @@ footer p {
   border-color: rgb(80, 80, 80);
 }
 
-would this run 
+.rounded-image {
+  border-radius: 50%; /* Makes the image circular */
+  width: 150px;       /* Set desired width */
+  height: 150px;      /* Set desired height */
+  object-fit: cover;  /* Ensures the image scales properly inside its bounds */
+}
